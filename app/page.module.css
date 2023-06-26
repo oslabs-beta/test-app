@@ -1,16 +1,23 @@
 .main {
   text-align: center;
   border: 1px solid lightblue;
-  position: relative;
+  height: 100vh;
+
+}
+
+.container {
+  padding-top: .69em;
 }
 
 .moveBox {
-  padding: 2.5em;
+  padding: 1.5em;
   border: 1px solid lightblue;
-  position: fixed;
+  position: absolute;
   width: 20em;
-  height: 100%;
+  height: 100vh;
   right: 0;
+  top: 0;
+  text-align: left;
 }
 
 .boxTitle {
