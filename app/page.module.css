@@ -6,11 +6,11 @@
 }
 
 .container {
-  padding-top: .69em;
+  padding-top: .69rem;
 }
 
 .moveBox {
-  padding: 1.5em;
+  padding: 1.5rem;
   border: 1px solid lightblue;
   position: absolute;
   width: 20em;
@@ -22,6 +22,19 @@
 
 .boxTitle {
   font-size: 2rem;
+}
+
+.articlesDisplay {
+  border: 1px solid lightblue;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 2em 0;
+}
+
+.post {
+  width: 20rem;
+  height: 18rem;
+  border: 1px solid lightblue;
 }
 
 /* 
