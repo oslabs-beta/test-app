@@ -1,8 +1,7 @@
 .main {
   text-align: center;
-  border: 1px solid lightblue;
+  border: 0px solid lightblue;
   height: 100vh;
-
 }
 
 .container {
@@ -11,7 +10,7 @@
 
 .moveBox {
   padding: 1.5rem;
-  border: 1px solid lightblue;
+  border: 0px solid lightblue;
   position: absolute;
   width: 20em;
   height: 100vh;
@@ -25,16 +24,19 @@
 }
 
 .articlesDisplay {
-  border: 1px solid lightblue;
+  border: 0px solid lightblue;
   display: flex;
   flex-flow: row wrap;
+  gap: 1em;
   margin: 2em 0;
+  padding: 0 1em;
+  width: 80em;
 }
 
 .post {
   width: 20rem;
   height: 18rem;
-  border: 1px solid lightblue;
+  border: 0px solid lightblue;
 }
 
 /* 
