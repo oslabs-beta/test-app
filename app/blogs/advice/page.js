@@ -14,11 +14,13 @@ export default function Post() {
 
     return (
         <div className={styles.postContainer}>
+            <div className={styles.imgContainer}>
                 <Image
                     src={picture}
                     alt="Dance practice"
                     width={669}
                     height={669} />
+            </div>
                 <h2 className={styles.blogTitle}>{title}</h2>
                 <p className={styles.content}>{content}</p>
                 Previous
