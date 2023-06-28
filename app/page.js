@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from "next/link";
 import styles from './page.module.css'
 import { revalidatePath } from 'next/cache';
-import ArticlesDisplay from './ArticlesDisplay/page'
+import ArticlesDisplay from './blogs/page'
 
 const moves = ['Halo to Hollow'];
 

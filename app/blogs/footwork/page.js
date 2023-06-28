@@ -20,8 +20,8 @@ export default function Post() {
                     width={669}
                     height={669} />
                 <h2 className={styles.blogTitle}>{title}</h2>
-                <p>{content}</p>
-                <Link href="/">Back</Link>
+                <p className={styles.content}>{content}</p>
+                <Link href="/">Back to Home</Link>
         </div>
     )
 }
