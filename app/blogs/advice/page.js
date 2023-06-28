@@ -18,8 +18,8 @@ export default function Post() {
                 <Image
                     src={picture}
                     alt="Dance practice"
-                    width={669}
-                    height={669} />
+                    width={369}
+                    height={369} />
             </div>
                 <h2 className={styles.blogTitle}>{title}</h2>
                 <p className={styles.content}>{content}</p>
