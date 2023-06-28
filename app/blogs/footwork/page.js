@@ -24,10 +24,12 @@ export default function Post() {
             
                 <h2 className={styles.blogTitle}>{title}</h2>
                 <p className={styles.content}>{content}</p>
+            
+            <div className={styles.linkContainer}>
                 <Link href="/blogs/advice">Previous</Link>
                 <Link href="/">Back to Home</Link>
                 Next
-            
+            </div>
         </div>
     )
 }

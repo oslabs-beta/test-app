@@ -25,14 +25,29 @@
     margin-bottom: 1rem;
 }
 
-.wordContainer {
-    border: 1px solid blue;
+.textContainer {
+    width: 100%;
+    max-width: 500px;
+}
+
+.linkContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 /* Media Query for Mobile */
 @media (max-width: 600px) {
+    .postContainer {
+        padding: 2rem;
+    }
+
     .imgContainer {
-        max-width: 100%;
+        width: 100%;
+    }
+
+    .textContainer {
+        width: 100%;
     }
 }
 
