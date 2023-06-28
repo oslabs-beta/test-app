@@ -21,6 +21,7 @@ export default function Post() {
                     height={669} />
                 <h2 className={styles.blogTitle}>{title}</h2>
                 <p className={styles.content}>{content}</p>
+                Previous
                 <Link href="/">Back to Home</Link>
                 <Link href="/blogs/footwork">Next</Link>
         </div>
