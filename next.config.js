@@ -4,7 +4,7 @@ const nextConfig = {
         serverActions: true,
       },
     images: {
-        domains: ['www.howcast.com']
+        domains: ['www.howcast.com', 'media.tenor.com']
       },
 }
 

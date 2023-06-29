@@ -39,7 +39,7 @@
   border: 0px solid lightblue;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1069px) {
   .moveBox {
     width: 100%;
     height: auto;
@@ -48,6 +48,8 @@
 
   .articlesDisplay {
     width: 100%;
+    align-items: center;
+    justify-content: center;
   }
 
   .post {
