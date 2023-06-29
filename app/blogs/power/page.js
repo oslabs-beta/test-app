@@ -9,7 +9,7 @@ export default function Post() {
     const [ picture, title, content ] = [
         "https://media.tenor.com/eTkFrMX23lUAAAAd/breakdance-dance.gif",
         "How to learn power",
-        "Stop being a bitch",
+        "It's all in the hips and core",
      ]
 
     return (
@@ -24,7 +24,7 @@ export default function Post() {
             <div>
                 <h2 className={styles.blogTitle}>{title}</h2>
                 <p className={styles.content}>{content}</p>
-                </div>
+            </div>
             <div className={styles.linkContainer}>
                 <Link href="/blogs/injuries">Previous</Link>
                 <Link href="/">Back to Home</Link>

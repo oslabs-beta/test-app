@@ -31,7 +31,7 @@ const ArticlesDisplay = () => {
         <BlogPost
           title="How to learn power"
           picture="https://media.tenor.com/eTkFrMX23lUAAAAd/breakdance-dance.gif"
-          content="Stop being a bitch" /></Link>
+          content="It's all in the hips and core" /></Link>
       <Link href="/blogs/advice">
         <BlogPost
           title="Why your breaking stinks"
