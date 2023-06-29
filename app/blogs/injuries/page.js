@@ -24,7 +24,7 @@ export default function Post() {
             <div>
                 <h2 className={styles.blogTitle}>{title}</h2>
                 <p className={styles.content}>{content}</p>
-                </div>
+            </div>
             <div className={styles.linkContainer}>
                 <Link href="/">Previous</Link>
                 <Link href="/">Back to Home</Link>
