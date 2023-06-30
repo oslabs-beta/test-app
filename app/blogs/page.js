@@ -24,7 +24,7 @@ const ArticlesDisplay = () => {
     <div className={styles.articlesDisplay}>
       <Link href="/blogs/injuries">
         <BlogPost
-          title="The number 1 cause of injuries"
+          title="The #1 cause of injuries"
           picture="https://media.tenor.com/0JXY6zR_1Y4AAAAM/breakdance-breakdancing.gif"
           content="Improper technique" /></Link>
       <Link href="/blogs/power">

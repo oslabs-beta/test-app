@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function Post() {
     const [ picture, title, content ] = [
         "https://media.tenor.com/0JXY6zR_1Y4AAAAM/breakdance-breakdancing.gif",
-        "The number 1 cause of injuries",
+        "The #1 cause of injuries",
         "Improper technique",
      ]
 
