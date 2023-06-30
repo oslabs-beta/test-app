@@ -14,6 +14,11 @@ export default function Post() {
 
     return (
         <div className={styles.postContainer}>
+            <div className={styles.linkContainer}>
+                <Link href="/blogs/power">Previous</Link> | 
+                <Link href="/">Back to Home</Link> | 
+                <Link href="/blogs/footwork">Next</Link>
+            </div>
             <div className={styles.imgContainer}>
                 <Image
                     src={picture}
@@ -24,11 +29,6 @@ export default function Post() {
             <div>
                 <h2 className={styles.blogTitle}>{title}</h2>
                 <p className={styles.content}>{content}</p>
-            </div>
-            <div className={styles.linkContainer}>
-                <Link href="/blogs/power">Previous</Link>
-                <Link href="/">Back to Home</Link>
-                <Link href="/blogs/footwork">Next</Link>
             </div>
         </div>
     )
