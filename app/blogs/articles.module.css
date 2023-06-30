@@ -32,13 +32,13 @@
 .linkContainer {
     width: 40%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
     padding-bottom: 2em;
 }
 
 /* Media Query for Mobile */
-@media (max-width: 600px) {
+@media (max-width: 769px) {
     .postContainer {
         padding: 2rem;
         justify-content: center;
@@ -51,6 +51,9 @@
 
     .textContainer {
         width: 100%;
+    }
+    .linkContainer {
+        width: 90%;
     }
 }
 
