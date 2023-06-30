@@ -29,7 +29,7 @@ const ArticlesDisplay = () => {
           content="Improper technique" /></Link>
       <Link href="/blogs/power">
         <BlogPost
-          title="How to learn power"
+          title="How to learn powermoves"
           picture="https://media.tenor.com/eTkFrMX23lUAAAAd/breakdance-dance.gif"
           content="It's all in the hips and core" /></Link>
       <Link href="/blogs/advice">
