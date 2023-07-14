@@ -5,18 +5,18 @@ import Link from "next/link";
 
 
 export default function Post() {
-    const [ picture, title, content ] = [
+    const [picture, title, content] = [
         "https://media.tenor.com/eTkFrMX23lUAAAAd/breakdance-dance.gif",
         "How to learn powermoves",
         "It's all in the hips and core",
-     ]
+    ]
 
     return (
         <div className={styles.postContainer}>
             <div className={styles.linkContainer}>
-              <Link href="/blogs/injuries">Previous</Link> | 
-              <Link href="/">Back to Home</Link> | 
-              <Link href="/blogs/advice">Next</Link>
+                <Link href="/blogs/injuries">Previous</Link> |
+                <Link href="/">Back to Home</Link> |
+                <Link href="/blogs/advice">Next</Link>
             </div>
             <div className={styles.imgContainer}>
                 <Image
@@ -28,7 +28,7 @@ export default function Post() {
             <div>
                 <h2 className={styles.blogTitle}>{title}</h2>
                 <p className={styles.content}>{content}</p>
-                </div>
+            </div>
         </div>
     )
 }

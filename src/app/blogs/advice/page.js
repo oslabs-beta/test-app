@@ -6,18 +6,18 @@ import Link from "next/link";
 
 
 export default function Post() {
-    const [ picture, title, content ] = [
-        "https://www.howcast.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cg_faces:center%2Cq_auto:good%2Cw_960/MTU5NzA0MjU3MjEwMjk1MzE2/f-b-boying-footwork-basics-promo-image.webp",
-        "How to practice footwork",
-        "Make shapes with your feet and more patterns",
-     ]
+    const [picture, title, content] = [
+        "https://www.howcast.com/.image/t_share/MTU5NzA0MjYwMTY1MzEzNTU2/zf-how-to-freestyle-your-b-boy-dance-moves-promo-image.jpg",
+        "Why your breaking stinks",
+        "You don't practice enough and your style is wack",
+    ]
 
     return (
         <div className={styles.postContainer}>
             <div className={styles.linkContainer}>
-                <Link href="/blogs/advice">Previous</Link> | 
-                <Link href="/">Back to Home</Link> | 
-                <Link href="/">Next</Link>
+                <Link href="/blogs/power">Previous</Link> |
+                <Link href="/">Back to Home</Link> |
+                <Link href="/blogs/footwork">Next</Link>
             </div>
             <div className={styles.imgContainer}>
                 <Image
@@ -29,7 +29,7 @@ export default function Post() {
             <div>
                 <h2 className={styles.blogTitle}>{title}</h2>
                 <p className={styles.content}>{content}</p>
-                </div>
+            </div>
         </div>
     )
 }
